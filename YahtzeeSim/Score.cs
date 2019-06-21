@@ -40,13 +40,13 @@ namespace YahtzeeSim
             foreach (var val in LowerSection.GetValues(typeof(LowerSection)))
             {
                 string section = val.ToString();
-                ScoreCard[section] = ScoreHand(section, hand);
+                ScoreCard[section] = Score.ScoreHand(section, hand);
             }
 
             foreach (var val in UpperSection.GetValues(typeof(UpperSection)))
             {
                 string section = val.ToString();
-                ScoreCard[section] = ScoreHand(section, hand);
+                ScoreCard[section] = Score.ScoreHand(section, hand);
             }
 
             return ScoreCard;

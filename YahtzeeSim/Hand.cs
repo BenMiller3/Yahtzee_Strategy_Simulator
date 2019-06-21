@@ -17,20 +17,31 @@ namespace YahtzeeSim
         {
             rnd = new Random();
 
-            
+            currentDice = new List<int> { };
             for (int i = 0; i < totalDice; i++)
             {
-                currentDice.Add(RollDice());
+                currentDice.Add(RollDie());
             }
             
         }
 
-        private static int RollDice()
+        private static int RollDie()
         {
             return rnd.Next(1, 7);
         }
 
-        public String ShowHand()
+        public void ReRollDice(List<int> diePositions)
+        {
+            foreach (int position in diePositions)
+            {
+                if (position > 0 && position <= totalDice)
+                {
+                    currentDice[position - 1] = RollDie();
+                }
+            }
+        }
+
+        public String GetHandString()
         {
             String hand = "";
 
@@ -40,6 +51,11 @@ namespace YahtzeeSim
             }
 
             return hand;
+        }
+
+        public void ShowHand()
+        {
+            Console.WriteLine(GetHandString());
         }
 
         public List<int> GetDiceList()
