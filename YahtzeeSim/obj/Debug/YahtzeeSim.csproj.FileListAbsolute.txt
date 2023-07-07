@@ -1,0 +1,6 @@
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\bin\Debug\YahtzeeSim.exe.config
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\obj\Debug\YahtzeeSim.csprojResolveAssemblyReference.cache
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\bin\Debug\YahtzeeSim.exe
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\bin\Debug\YahtzeeSim.pdb
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\obj\Debug\YahtzeeSim.exe
+c:\users\bmill06\documents\visual studio 2012\Projects\YahtzeeSim\YahtzeeSim\obj\Debug\YahtzeeSim.pdb
